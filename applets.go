@@ -22,6 +22,7 @@ import (
 	"github.com/howeyc/gobox/applets/spipe"
 	"github.com/howeyc/gobox/applets/strings"
 	"github.com/howeyc/gobox/applets/telnetd"
+	"github.com/howeyc/gobox/applets/touch"
 	"github.com/howeyc/gobox/applets/umount"
 	"github.com/howeyc/gobox/applets/wget"
 )
@@ -35,6 +36,7 @@ var Applets map[string]Applet = map[string]Applet{
 	"spiped":    spipe.Spiped,
 	"strings":   strings.Strings,
 	"telnetd":   telnetd.Telnetd,
+	"touch":     touch.Touch,
 	"md5sum":    checksum.Hash,
 	"sha1sum":   checksum.Hash,
 	"sha256sum": checksum.Hash,
