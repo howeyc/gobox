@@ -24,6 +24,7 @@ import (
 	"github.com/howeyc/gobox/applets/telnetd"
 	"github.com/howeyc/gobox/applets/touch"
 	"github.com/howeyc/gobox/applets/umount"
+	"github.com/howeyc/gobox/applets/wc"
 	"github.com/howeyc/gobox/applets/wget"
 )
 
@@ -46,6 +47,7 @@ var Applets map[string]Applet = map[string]Applet{
 	"rm":        rm.Rm,
 	"httpd":     httpd.Httpd,
 	"wget":      wget.Wget,
+	"wc":        wc.Wc,
 	"kill":      kill.Kill,
 	"cat":       cat.Cat,
 	"mknod":     mknod.Mknod,
