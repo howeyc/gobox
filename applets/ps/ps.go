@@ -3,9 +3,10 @@ package ps
 import (
 	"flag"
 	"fmt"
-	"github.com/surma/gobox/pkg/common"
 	"os"
 	"text/tabwriter"
+
+	"github.com/howeyc/gobox/pkg/common"
 )
 
 var (

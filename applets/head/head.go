@@ -3,9 +3,10 @@ package head
 import (
 	"flag"
 	"fmt"
-	"github.com/surma/gobox/pkg/common"
 	"io"
 	"os"
+
+	"github.com/howeyc/gobox/pkg/common"
 )
 
 var (

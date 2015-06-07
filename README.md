@@ -63,3 +63,4 @@ Thanks
 Credits
 -------
 (c) 2011-2014 Alexander "Surma" Surma <surma@surmair.de>
+(c) 2015 Chris Howey <chris@howe.me>

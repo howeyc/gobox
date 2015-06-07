@@ -3,10 +3,11 @@ package grep
 import (
 	"flag"
 	"fmt"
-	"github.com/surma/gobox/pkg/common"
 	"io"
 	"os"
 	"regexp"
+
+	"github.com/howeyc/gobox/pkg/common"
 )
 
 var (

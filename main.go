@@ -2,9 +2,10 @@ package main
 
 import (
 	"errors"
-	"github.com/surma/gobox/pkg/common"
 	"os"
 	"path/filepath"
+
+	"github.com/howeyc/gobox/pkg/common"
 )
 
 func init() {

@@ -2,8 +2,9 @@ package main
 
 import (
 	"flag"
-	"github.com/surma/gobox/pkg/common"
 	"path/filepath"
+
+	"github.com/howeyc/gobox/pkg/common"
 )
 
 const (

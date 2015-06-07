@@ -3,10 +3,11 @@ package telnetd
 import (
 	"errors"
 	"flag"
-	"github.com/surma/gobox/pkg/common"
 	"io"
 	"net"
 	"os/exec"
+
+	"github.com/howeyc/gobox/pkg/common"
 )
 
 var (
