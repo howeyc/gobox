@@ -7,7 +7,7 @@ import (
 	"net"
 	"os/exec"
 
-	"github.com/howeyc/gobox/pkg/common"
+	"common"
 )
 
 var (

@@ -5,7 +5,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/howeyc/gobox/pkg/common"
+	"common"
 )
 
 func init() {

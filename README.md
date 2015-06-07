@@ -22,7 +22,7 @@ Pitfalls
 Installation
 ------------
 
-GoBox is now `go get`-able.
+This is a project that can be built by [gb](http://getgb.io/)
 
 Developing applets
 ------------------

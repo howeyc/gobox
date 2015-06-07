@@ -6,7 +6,7 @@ import (
 	"io"
 	"os"
 
-	"github.com/howeyc/gobox/pkg/common"
+	"common"
 )
 
 var (

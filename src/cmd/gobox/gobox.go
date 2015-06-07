@@ -4,7 +4,7 @@ import (
 	"flag"
 	"path/filepath"
 
-	"github.com/howeyc/gobox/pkg/common"
+	"common"
 )
 
 const (

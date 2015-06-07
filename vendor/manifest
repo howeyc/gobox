@@ -1,0 +1,30 @@
+{
+	"version": 0,
+	"dependencies": [
+		{
+			"importpath": "github.com/dchest/spipe",
+			"repository": "https://github.com/dchest/spipe",
+			"revision": "3e93270037308f349a22b62e218ada049fcaeb14",
+			"branch": "master"
+		},
+		{
+			"importpath": "github.com/dchest/dhgroup14",
+			"repository": "https://github.com/dchest/dhgroup14",
+			"revision": "206e8b14dee0c71396f033cf452e29afd3c1f09c",
+			"branch": "master"
+		},
+		{
+			"importpath": "golang.org/x/crypto/pbkdf2",
+			"repository": "https://go.googlesource.com/crypto",
+			"revision": "c10c31b5e94b6f7a0283272dc2bb27163dcea24b",
+			"branch": "master",
+			"path": "/pbkdf2"
+		},
+		{
+			"importpath": "github.com/jasonmoo/wc",
+			"repository": "https://github.com/jasonmoo/wc",
+			"revision": "fde10438252e8ec2bfd8ee0ed5896326fab31f4f",
+			"branch": "master"
+		}
+	]
+}

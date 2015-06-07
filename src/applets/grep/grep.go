@@ -7,7 +7,7 @@ import (
 	"os"
 	"regexp"
 
-	"github.com/howeyc/gobox/pkg/common"
+	"common"
 )
 
 var (

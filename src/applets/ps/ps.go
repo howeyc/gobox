@@ -6,7 +6,7 @@ import (
 	"os"
 	"text/tabwriter"
 
-	"github.com/howeyc/gobox/pkg/common"
+	"common"
 )
 
 var (

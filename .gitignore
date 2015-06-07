@@ -10,3 +10,4 @@ _obj
 *sublime*
 .vagrant
 .DS_Store
+pkg/

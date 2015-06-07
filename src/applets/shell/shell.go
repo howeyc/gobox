@@ -6,7 +6,7 @@ import (
 	"os/exec"
 	"strings"
 
-	"github.com/howeyc/gobox/pkg/common"
+	"common"
 )
 
 func Shell(call []string) error {
