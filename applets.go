@@ -18,6 +18,7 @@ import (
 	"github.com/howeyc/gobox/applets/ps"
 	"github.com/howeyc/gobox/applets/rm"
 	"github.com/howeyc/gobox/applets/shell"
+	"github.com/howeyc/gobox/applets/spipe"
 	"github.com/howeyc/gobox/applets/telnetd"
 	"github.com/howeyc/gobox/applets/umount"
 	"github.com/howeyc/gobox/applets/wget"
@@ -28,6 +29,8 @@ import (
 var Applets map[string]Applet = map[string]Applet{
 	"echo":    echo.Echo,
 	"shell":   shell.Shell,
+	"spipe":   spipe.Spipe,
+	"spiped":  spipe.Spiped,
 	"telnetd": telnetd.Telnetd,
 	"ls":      ls.Ls,
 	"rm":      rm.Rm,
