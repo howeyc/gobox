@@ -2,6 +2,7 @@ package main
 
 // Applet imports
 import (
+	"github.com/howeyc/gobox/applets/cal"
 	"github.com/howeyc/gobox/applets/cat"
 	"github.com/howeyc/gobox/applets/checksum"
 	"github.com/howeyc/gobox/applets/chroot"
@@ -50,6 +51,7 @@ var Applets map[string]Applet = map[string]Applet{
 	"wc":        wc.Wc,
 	"kill":      kill.Kill,
 	"cat":       cat.Cat,
+	"cal":       cal.Cal,
 	"mknod":     mknod.Mknod,
 	"mount":     mount.Mount,
 	"umount":    umount.Umount,
