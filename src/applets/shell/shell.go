@@ -45,6 +45,7 @@ func Shell(call []string) error {
 			common.DumpError(ce)
 			continue
 		}
+		params = expandEnvs(params)
 		ce = execute(params)
 		if ce != nil {
 			common.DumpError(ce)
@@ -52,6 +53,16 @@ func Shell(call []string) error {
 		}
 	}
 	return nil
+}
+
+// Replace environment variables with the content
+func expandEnvs(params []string) []string {
+	for i, param := range params {
+		if len(param) > 1 && strings.HasPrefix(param, "$") {
+			params[i] = os.Getenv(param[1:])
+		}
+	}
+	return params
 }
 
 func isComment(line string) bool {
