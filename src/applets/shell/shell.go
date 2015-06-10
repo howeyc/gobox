@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"os"
 	"os/exec"
+	"path/filepath"
 	"regexp"
 	"strings"
 
@@ -32,7 +33,7 @@ func Shell(call []string) error {
 	var line string
 	for e == nil {
 		if interactive {
-			fmt.Print("> ")
+			printPrompt()
 		}
 		line, e = in.ReadWholeLine()
 		if e != nil {
@@ -54,6 +55,28 @@ func Shell(call []string) error {
 		}
 	}
 	return nil
+}
+
+func printPrompt() {
+	pwd, e := os.Getwd()
+	if e != nil {
+		fmt.Print("> ")
+		return
+	}
+
+	home := os.Getenv("HOME")
+	rel, err := filepath.Rel(home, pwd)
+	if err != nil || rel == "" || strings.HasPrefix(rel, "..") {
+		fmt.Printf("%s > ", pwd)
+		return
+	}
+
+	if rel == "." {
+		fmt.Print("~ >")
+		return
+	}
+
+	fmt.Printf("~/%s > ", rel)
 }
 
 // Replace environment variables with the content
