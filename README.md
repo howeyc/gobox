@@ -1,5 +1,11 @@
 GoBox v0.4.2
 ============
+
+This fork is abandoned, initially I used this to get some go utilities running
+on an Android terminal. Now I use [Termux](http://termux.com)
+
+Description
+--------
 GoBox is supposed to be something like [BusyBox](http://www.busybox.net). I.e.
 a single, preferably small executable which bundles all important shell tools.
 A swiss army knife for the command line, if you will.
